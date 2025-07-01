@@ -12,12 +12,29 @@
     </head>
 
     <body>
+        <!-- Theme Toggle -->
+        <button class="theme-toggle" aria-label="Switch theme">
+            <i class="fas fa-sun theme-icon light-icon"></i>
+            <i class="fas fa-moon theme-icon dark-icon"></i>
+            <i class="fas fa-circle-half-stroke theme-icon system-icon"></i>
+        </button>
+
         <nav class="main-nav">
             <div class="container">
                 <div class="nav-brand">
                     <a href="index.html">Spandan Banerjee</a>
                 </div>
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
                 <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="blog.html" class="active">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="nav-links mobile-menu">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
                     <a href="projects.html">Projects</a>
@@ -357,6 +374,7 @@
                 }
             }
         </style>
+        <script src="scripts.js"></script>
     </body>
 
 </html>
