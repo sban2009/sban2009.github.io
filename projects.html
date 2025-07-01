@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects | Spandan Banerjee</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- Theme Toggle -->
+        <button class="theme-toggle" aria-label="Switch theme">
+            <i class="fas fa-sun theme-icon light-icon"></i>
+            <i class="fas fa-moon theme-icon dark-icon"></i>
+            <i class="fas fa-circle-half-stroke theme-icon system-icon"></i>
+        </button>
+
+        <nav class="main-nav">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="index.html">Spandan Banerjee</a>
+                </div>
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html" class="active">Projects</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="nav-links mobile-menu">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html" class="active">Projects</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="page-header">
+                <div class="container">
+                    <h1>My Projects</h1>
+                    <p>A showcase of my work, experiments, and contributions</p>
+                </div>
+            </section>
+
+            <section class="projects-detailed">
+                <div class="container">
+                    <div class="projects-filter">
+                        <button class="filter-btn active" data-filter="all">All Projects</button>
+                        <button class="filter-btn" data-filter="web">Web Development</button>
+                        <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                        <button class="filter-btn" data-filter="tools">Tools & Utilities</button>
+                        <button class="filter-btn" data-filter="academic">Academic</button>
+                    </div>
+
+                    <div class="projects-showcase">
+                        <div class="project-detailed-card" data-category="tools">
+                            <div class="project-image">
+                                <div class="project-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3>Code4Fun</h3>
+                                    <div class="project-status">
+                                        <span class="status-badge active">Active</span>
+                                    </div>
+                                </div>
+                                <p class="project-description">
+                                    A comprehensive collection of coding problems and solutions designed to help with
+                                    technical interview preparation and competitive programming practice. Features
+                                    problems ranging from basic algorithms to advanced data structures.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Algorithms</span>
+                                    <span class="tech-tag">Data Structures</span>
+                                    <span class="tech-tag">Problem Solving</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-star"></i>
+                                        <span>Open Source</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-code-branch"></i>
+                                        <span>Multiple Contributors</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/sban2009/Code4Fun" target="_blank"
+                                        class="btn btn-primary">
+                                        <i class="fab fa-github"></i> View Code
+                                    </a>
+                                    <a href="#" class="btn btn-secondary">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-detailed-card" data-category="web ml">
+                            <div class="project-image">
+                                <div class="project-icon">
+                                    <i class="fas fa-language"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3>IBM Watson Translator</h3>
+                                    <div class="project-status">
+                                        <span class="status-badge completed">Completed</span>
+                                    </div>
+                                </div>
+                                <p class="project-description">
+                                    A Flask-based web application that provides real-time translation between English
+                                    and French using IBM Watson's powerful language translation API. Features a clean,
+                                    user-friendly interface and robust error handling.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Flask</span>
+                                    <span class="tech-tag">IBM Watson</span>
+                                    <span class="tech-tag">REST API</span>
+                                    <span class="tech-tag">HTML/CSS</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-globe"></i>
+                                        <span>Web Application</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-robot"></i>
+                                        <span>AI Integration</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/sban2009/IBM-Watson-Translator" target="_blank"
+                                        class="btn btn-primary">
+                                        <i class="fab fa-github"></i> View Code
+                                    </a>
+                                    <a href="#" class="btn btn-secondary">
+                                        <i class="fas fa-play"></i> Try It Out
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-detailed-card" data-category="academic">
+                            <div class="project-image">
+                                <div class="project-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3>STCET Academic Projects</h3>
+                                    <div class="project-status">
+                                        <span class="status-badge archived">Academic</span>
+                                    </div>
+                                </div>
+                                <p class="project-description">
+                                    A collection of academic projects and coursework completed during my studies at
+                                    St. Thomas' College of Engineering and Technology. Includes data science projects,
+                                    algorithm implementations, and research work.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Jupyter Notebook</span>
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Data Analysis</span>
+                                    <span class="tech-tag">Machine Learning</span>
+                                    <span class="tech-tag">Research</span>
+                                </div>
+                                <div class="project-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-book"></i>
+                                        <span>Educational</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-chart-line"></i>
+                                        <span>Data Science</span>
+                                    </div>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/sban2009/STCET" target="_blank" class="btn btn-primary">
+                                        <i class="fab fa-github"></i> View Code
+                                    </a>
+                                    <a href="#" class="btn btn-secondary">
+                                        <i class="fas fa-file-alt"></i> Documentation
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Placeholder for future projects -->
+                        <div class="project-detailed-card coming-soon" data-category="web">
+                            <div class="project-image">
+                                <div class="project-icon">
+                                    <i class="fas fa-rocket"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3>Coming Soon</h3>
+                                    <div class="project-status">
+                                        <span class="status-badge upcoming">In Development</span>
+                                    </div>
+                                </div>
+                                <p class="project-description">
+                                    Exciting new projects are in the pipeline! Stay tuned for updates on my latest
+                                    work in web development, machine learning, and innovative tech solutions.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">TBD</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://github.com/sban2009" target="_blank" class="btn btn-primary">
+                                        <i class="fab fa-github"></i> Follow Updates
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="github-stats">
+                        <h2>GitHub Activity</h2>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <h3>12+</h3>
+                                <p>Public Repositories</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>6</h3>
+                                <p>Followers</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>5</h3>
+                                <p>Following</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3>Active</h3>
+                                <p>Contributor</p>
+                            </div>
+                        </div>
+                        <div class="github-link">
+                            <a href="https://github.com/sban2009" target="_blank" class="btn btn-outline">
+                                <i class="fab fa-github"></i> View Full GitHub Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Spandan Banerjee. Made with ❤️ and code.</p>
+            </div>
+        </footer>
+
+        <script>
+            // Project filtering functionality
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Update active filter button
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    // Filter projects
+                    const filter = btn.dataset.filter;
+                    document.querySelectorAll('.project-detailed-card').forEach(card => {
+                        if (filter === 'all' || card.dataset.category.includes(filter)) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        </script>
+        <script src="scripts.js"></script>
+    </body>
+
+</html>

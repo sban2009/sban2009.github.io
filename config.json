@@ -1,0 +1,171 @@
+{
+	"siteInfo": {
+		"title": "Spandan Banerjee | Software Developer & Data Science Enthusiast",
+		"description": "Software Developer and Data Science Enthusiast passionate about coding, machine learning, and innovative solutions.",
+		"author": "Spandan Banerjee",
+		"location": "🇮🇳 India",
+		"tagline": "Passionate about coding, innovation, and creating impactful solutions"
+	},
+	"profile": {
+		"name": "Spandan Banerjee",
+		"title": "Software Developer & Data Science Enthusiast",
+		"image": "https://avatars.githubusercontent.com/u/36163778?v=4",
+		"email": "sban2009@yahoo.in",
+		"currentCompany": "IBM",
+		"education": "St. Thomas' College of Engineering and Technology, Kolkata",
+		"repositoryCount": "12+"
+	},
+	"navigation": {
+		"home": "Home",
+		"about": "About",
+		"skills": "Skills",
+		"projects": "Projects",
+		"blog": "Blog",
+		"contact": "Contact"
+	},
+	"socialLinks": [
+		{
+			"name": "GitHub",
+			"url": "https://github.com/sban2009",
+			"icon": "fab fa-github"
+		},
+		{
+			"name": "LinkedIn",
+			"url": "https://www.linkedin.com/in/sban2009/",
+			"icon": "fab fa-linkedin"
+		},
+		{
+			"name": "Email",
+			"url": "mailto:sban2009@yahoo.in",
+			"icon": "fas fa-envelope"
+		},
+		{
+			"name": "Medium",
+			"url": "https://sban2009.medium.com/",
+			"icon": "fab fa-medium"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://www.twitter.com/sban2009",
+			"icon": "fab fa-twitter"
+		},
+		{
+			"name": "Resume",
+			"url": "https://docs.google.com/document/d/13GujV-bvm_2Umw4tjfULo7Lqk4pltHPQv3s6EFHxVwo/edit?usp=sharing",
+			"icon": "fas fa-file-alt"
+		}
+	],
+	"about": {
+		"sectionTitle": "About Me",
+		"introduction": [
+			"Hello! I'm Spandan Banerjee, a passionate Software Developer and Data Science Enthusiast with a love for creating innovative solutions and exploring the intersection of technology and data. Currently associated with IBM, I enjoy working on diverse projects that challenge my skills and expand my knowledge.",
+			"My journey in technology has led me through various domains including web development, data analysis, machine learning, and software engineering. I'm always eager to learn new technologies and contribute to meaningful projects that make a difference."
+		],
+		"quickFacts": {
+			"title": "Quick Facts",
+			"facts": [
+				{
+					"icon": "fas fa-building",
+					"text": "Works at IBM"
+				},
+				{
+					"icon": "fas fa-graduation-cap",
+					"text": "St. Thomas' College of Engineering and Technology, Kolkata"
+				},
+				{
+					"icon": "fas fa-code",
+					"text": "12+ Public Repositories"
+				}
+			]
+		}
+	},
+	"skills": {
+		"sectionTitle": "Skills & Technologies",
+		"categories": [
+			{
+				"title": "Programming Languages",
+				"icon": "fas fa-code",
+				"skills": ["Python", "C/C++", "JavaScript", "Java", "SQL"]
+			},
+			{
+				"title": "Data Science & ML",
+				"icon": "fas fa-brain",
+				"skills": ["Machine Learning", "Data Analysis", "Jupyter Notebooks", "Statistical Analysis"]
+			},
+			{
+				"title": "Web Development",
+				"icon": "fas fa-globe",
+				"skills": ["Next.js", "React", "Flask", "Django", "REST APIs", "HTML/CSS"]
+			},
+			{
+				"title": "Tools & Technologies",
+				"icon": "fas fa-tools",
+				"skills": ["Git/GitHub", "VS Code"]
+			}
+		]
+	},
+	"projects": {
+		"sectionTitle": "Featured Projects",
+		"featured": [
+			{
+				"title": "Code4Fun",
+				"description": "Random problems for coding interviews or contests",
+				"longDescription": "A collection of coding problems and solutions designed to help with interview preparation and competitive programming practice.",
+				"technologies": ["Python", "Algorithms", "Data Structures"],
+				"githubUrl": "https://github.com/sban2009/Code4Fun",
+				"liveUrl": null,
+				"status": "active"
+			},
+			{
+				"title": "IBM Watson Translator",
+				"description": "Flask-based English to French translator using IBM Watson",
+				"longDescription": "A web application that translates text between English and French using IBM Watson's language translation services.",
+				"technologies": ["Python", "Flask", "IBM Watson", "API"],
+				"githubUrl": "https://github.com/sban2009/IBM-Watson-Translator",
+				"liveUrl": null,
+				"status": "completed"
+			},
+			{
+				"title": "STCET Projects",
+				"description": "Academic projects from St. Thomas' College",
+				"longDescription": "Collection of projects and code written during my time at St. Thomas' College of Engineering and Technology, Kolkata.",
+				"technologies": ["Jupyter Notebook", "Python", "Data Science", "Academic"],
+				"githubUrl": "https://github.com/sban2009/STCET",
+				"liveUrl": null,
+				"status": "archived"
+			}
+		],
+		"allProjectsText": "View All Projects",
+		"allProjectsUrl": "https://github.com/sban2009?tab=repositories"
+	},
+	"contact": {
+		"sectionTitle": "Let's Connect",
+		"description": "I'm always open to discussing new opportunities, interesting projects, or just having a conversation about technology and innovation. Feel free to reach out through any of the platforms below!",
+		"methods": [
+			{
+				"title": "Email Me",
+				"url": "mailto:sban2009@yahoo.in",
+				"icon": "fas fa-envelope"
+			},
+			{
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/sban2009/",
+				"icon": "fab fa-linkedin"
+			},
+			{
+				"title": "GitHub",
+				"url": "https://github.com/sban2009",
+				"icon": "fab fa-github"
+			}
+		]
+	},
+	"footer": {
+		"copyright": "© 2025 Spandan Banerjee. Made with ❤️ and code.",
+		"sourceText": "View source on GitHub",
+		"sourceUrl": "https://github.com/sban2009"
+	},
+	"theme": {
+		"defaultMode": "system",
+		"enableDarkMode": true
+	}
+}
